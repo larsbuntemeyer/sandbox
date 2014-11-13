@@ -1,0 +1,1 @@
+paste taui.out s_final.out | awk '{ printf" %s %s %s \n",$1,$4,$2}' > plot.out
