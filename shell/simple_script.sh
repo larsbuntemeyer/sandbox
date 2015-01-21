@@ -20,6 +20,12 @@ while [[ $count -gt 0 ]];do
    (( count -= 1 ))
 done
 
+typeset -Z4 X
+X=1
+print "X is $X"
+
+EXP=`cat new_file`
+print "EXP is $EXP"
 
 #until [[ $answer = "yes" ]];do
 #   print -n "Please enter \"yes\": "

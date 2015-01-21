@@ -131,7 +131,7 @@ cfl = 0.8
 ; set wf = 1 to write a data file of the end results
 ; if both are 0, we plot in real time 
 ps = 0
-wf = 1
+wf = 0
 
 ;Toro Test 1
 dens_left = 1.0

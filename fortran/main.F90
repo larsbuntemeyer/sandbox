@@ -9,6 +9,8 @@ program main
    integer, allocatable, dimension(:)   :: integerList
    integer, pointer, dimension(:,:,:)   :: pointerGrid
 !
+   character :: text*10
+!
    write (*,*) 'FORTRAN test program'
 !
    x = 1.0

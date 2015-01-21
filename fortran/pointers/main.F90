@@ -19,9 +19,9 @@ program main
       integerList(i) = i 
    enddo
 ! 
-   do i=1,n
-   do j=1,n
    do k=1,n
+   do j=1,n
+   do i=1,n
       listOfIntegerLists(i,j,k,:) = integerList
    enddo
    enddo
