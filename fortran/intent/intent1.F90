@@ -13,7 +13,8 @@ program xxxx
 
     i = 9
     call sub(i)  
-    call sub3(i,i)  
+!    call sub3(i,i)
+!    call sub4(i,i) 
     print*,i ! will print 7 on all compilers I checked  
 end  
 subroutine sub(i)  
@@ -23,11 +24,16 @@ subroutine sub(i)
 end  
 subroutine sub2(i)  
     implicit none  
-    integer, intent(inout) :: i  
+    integer, intent(out) :: i  
     i = 7  ! This works since the "intent" information was lost.  
 end
 subroutine sub3(i,j)  
     implicit none  
     integer, intent(in)  :: i  
     integer, intent(out) :: j  
+end
+subroutine sub4(i,j)  
+    implicit none  
+    integer, intent(inout)  :: i  
+    integer, intent(out)    :: j  
 end
