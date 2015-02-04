@@ -9,7 +9,7 @@ program main
    integer, parameter                                    :: nrOfMessage = 2
    integer, parameter                                    :: io = 0
    logical, parameter                                    :: nonBlocking = .true. 
-   logical, parameter                                    :: check = .false. 
+   logical, parameter                                    :: check = .true. 
    logical, parameter                                    :: allgather = .false. 
    logical, parameter                                    :: wf = .true. 
    integer, save                                         :: nrOfProcs, myRank, request, status
@@ -126,7 +126,8 @@ program main
        end do
     else
             !!THIS IS RECIEVER
-       call MPI_IRECV(receiveArray(:,1+n*nrOfMessage),sizeOfMessage*nrOfMessage,MPI_DOUBLE_PRECISION,sender,1,MPI_COMM_WORLD,receiveReq(n),ierr)
+       call MPI_IRECV(receiveArray(:,1+n*nrOfMessage),sizeOfMessage*nrOfMessage,&
+            MPI_DOUBLE_PRECISION,sender,1,MPI_COMM_WORLD,receiveReq(n),ierr)
        !req(nrOfProcs-1+n) = receiveReq(n)
     end if
    end do
