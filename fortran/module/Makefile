@@ -1,7 +1,7 @@
 # makefile for the raytracer
 # from quickcf tutorial:  g++ *.cpp -lSDL -O3 
 
-F90 = ifort 
+F90 = gfortran
 
 #vpath %.cpp ../source
 #vpath %.h ../source
