@@ -1,0 +1,61 @@
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+simple_xy_par_wr: error while loading shared libraries: libnetcdff.so.6: cannot open shared object file: No such file or directory
+srun: error: btc3: tasks 0-23: Exited with exit code 127
+srun: Terminating job step 19694.0
+
+real	0m1,00s
+user	0m0,01s
+sys	0m0,01s
+
+********************************************************************************
+*                                                                              *
+*  This is the automated job summary provided by DKRZ.                         *
+*  If you encounter problems, need assistance or have any suggestion, please   *
+*  write an email to                                                           *
+*                                                                              *
+*  --  beratung@dkrz.de --                                                     *
+*                                                                              *
+*                       We hope you enjoyed the DKRZ supercomputer MISTRAL ... *
+*
+* JobID            : 19694
+* JobName          : pnetcdf                                           
+* Account          : ch0636
+* User             : g300046 (23189), csc (32015)                      
+* Partition        : compute
+* QOS              : normal
+* Nodelist         : btc3 (1)                                          
+* Submit date      : 2015-05-19T14:26:22
+* Start time       : 2015-05-19T14:26:23
+* End time         : 2015-05-19T14:26:25
+* Elapsed time     : 00:00:02 (Timelimit=00:10:00)                     
+* Command          : /lustre/pf/zmaw/g300046/sandbox/fortran/netcdf/test.ksh
+* WorkDir          : /lustre/pf/zmaw/g300046/sandbox/fortran/netcdf
+*
+* StepID | JobName      NodeHours ConsEnergy [J]    MaxRSS [Byte] ReqCPUFreq [Hz]
+* ------------------------------------------------------------------------------
+* batch  | batch          0.00056            171        7084K (0)               0
+* 0      | simple_xy_pa   0.00014             86            0 (2)          2.500G
+* ------------------------------------------------------------------------------
+

@@ -2,7 +2,8 @@
 # from quickcf tutorial:  g++ *.cpp -lSDL -O3 
 
 #F90 = mpif90-vt
-F90 = vtfort -vt:fc mpif90
+#F90 = vtfort -vt:fc mpif90
+F90 = mpiifort 
 #F90 = vtf90 -vt:f90 mpif90
 #F90 = /opt/openmpi-1.7.2/bin/mpif90
 #vpath %.cpp ../source

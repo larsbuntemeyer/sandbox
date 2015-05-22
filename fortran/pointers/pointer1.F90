@@ -1,5 +1,5 @@
 program bsp
-  implicit none
+ implicit none
  
   integer, pointer       :: ptr1 => null()
   character(20), pointer :: ptr2
@@ -12,13 +12,11 @@ program bsp
   ! Ausgabe: F
  
   write(*,*) associated(ptr2)
-  write(*,*) (ptr2)
   ! Ausgabe: T
  
-  !write(*,*) associated(ptr2, ptr1)
+!  write(*,*) associated(ptr2, ptr1)
   ! Ausgabe: F
  
-  !write(*,*) associated(ptr2, str)
+  write(*,*) associated(ptr2, str)
   ! Ausgabe: T
 end program bsp
-

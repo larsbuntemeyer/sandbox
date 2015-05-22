@@ -1,0 +1,60 @@
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1b627f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=25327f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1e007f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=15907f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=c427f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=157b7f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=73e7f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1b8a7f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=1bad7f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=16df7f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=ccc7f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=c297f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=ea77f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=18b87f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=230a7f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=15947f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=25b37f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=190d7f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=e9d7f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=18187f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=206e7f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=b307f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=82e7f0
+[-1] MPI startup(): Imported environment partly inaccesible. Map=0 Info=20717f0
+
+real	0m3,06s
+user	0m0,00s
+sys	0m0,01s
+
+********************************************************************************
+*                                                                              *
+*  This is the automated job summary provided by DKRZ.                         *
+*  If you encounter problems, need assistance or have any suggestion, please   *
+*  write an email to                                                           *
+*                                                                              *
+*  --  beratung@dkrz.de --                                                     *
+*                                                                              *
+*                       We hope you enjoyed the DKRZ supercomputer MISTRAL ... *
+*
+* JobID            : 19673
+* JobName          : pnetcdf                                           
+* Account          : ch0636
+* User             : g300046 (23189), csc (32015)                      
+* Partition        : compute
+* QOS              : normal
+* Nodelist         : btc2 (1)                                          
+* Submit date      : 2015-05-19T12:51:49
+* Start time       : 2015-05-19T12:51:49
+* End time         : 2015-05-19T12:51:53
+* Elapsed time     : 00:00:04 (Timelimit=00:10:00)                     
+* Command          : /lustre/pf/zmaw/g300046/sandbox/fortran/netcdf/pnetcdf/
+*                    test_striped.ksh
+* WorkDir          : /lustre/pf/zmaw/g300046/sandbox/fortran/netcdf/pnetcdf
+*
+* StepID | JobName      NodeHours ConsEnergy [J]    MaxRSS [Byte] ReqCPUFreq [Hz]
+* ------------------------------------------------------------------------------
+* batch  | batch           0.0011            189        7088K (0)               0
+* 0      | nonblocking_   0.00042            189       4404K (17)          2.500G
+* ------------------------------------------------------------------------------
+

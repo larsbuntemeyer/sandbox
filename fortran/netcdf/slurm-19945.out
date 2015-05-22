@@ -1,0 +1,59 @@
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+ *** SUCCESS writing example file nc4_pres_temp_4D.nc!
+
+real	0m2,14s
+user	0m0,00s
+sys	0m0,02s
+
+********************************************************************************
+*                                                                              *
+*  This is the automated job summary provided by DKRZ.                         *
+*  If you encounter problems, need assistance or have any suggestion, please   *
+*  write an email to                                                           *
+*                                                                              *
+*  --  beratung@dkrz.de --                                                     *
+*                                                                              *
+*                       We hope you enjoyed the DKRZ supercomputer MISTRAL ... *
+*
+* JobID            : 19945
+* JobName          : pnetcdf                                           
+* Account          : ch0636
+* User             : g300046 (23189), csc (32015)                      
+* Partition        : compute
+* QOS              : normal
+* Nodelist         : btc2 (1)                                          
+* Submit date      : 2015-05-21T19:05:26
+* Start time       : 2015-05-21T19:14:07
+* End time         : 2015-05-21T19:14:10
+* Elapsed time     : 00:00:03 (Timelimit=00:10:00)                     
+* Command          : /lustre/pf/zmaw/g300046/sandbox/fortran/netcdf/test.ksh
+* WorkDir          : /lustre/pf/zmaw/g300046/sandbox/fortran/netcdf
+*
+* StepID | JobName      NodeHours ConsEnergy [J]    MaxRSS [Byte] ReqCPUFreq [Hz]
+* ------------------------------------------------------------------------------
+* batch  | batch          0.00083            199        7068K (0)               0
+* 0      | nc4_pres_tem   0.00028            134        6108K (9)          2.500G
+* ------------------------------------------------------------------------------
+

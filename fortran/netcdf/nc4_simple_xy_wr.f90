@@ -13,14 +13,14 @@
 !     Full documentation of the netCDF Fortran 90 API can be found at:
 !     http://www.unidata.ucar.edu/software/netcdf/docs/netcdf-f90
 
-!     $Id: simple_xy_wr.f90,v 1.11 2010/04/06 19:32:08 ed Exp $
+!     $Id: nc4_simple_xy_wr.f90,v 1.11 2010/04/06 19:32:08 ed Exp $
 
-program simple_xy_wr
+program nc4_simple_xy_wr
   use netcdf
   implicit none
 
   ! This is the name of the data file we will create.
-  character (len = *), parameter :: FILE_NAME = "simple_xy.nc"
+  character (len = *), parameter :: FILE_NAME = "nc4_simple_xy.nc"
 
   ! We are writing 2D data, a 12 x 6 grid. 
   integer, parameter :: NDIMS = 2
@@ -54,7 +54,7 @@ program simple_xy_wr
   ! makes sure that any return which is not equal to nf90_noerr (0)
   ! will print a netCDF error message and exit.
 
-  ! Create the netCDF file. The nf90_clobber parameter tells netCDF to
+  ! Create the netCDF file. The NF90_NETCDF4 parameter tells netCDF to
   ! overwrite this file, if it already exists.
   call check( nf90_create(FILE_NAME, NF90_CLOBBER, ncid) )
 
@@ -83,7 +83,7 @@ program simple_xy_wr
   ! associated with the file, and flushes any buffers.
   call check( nf90_close(ncid) )
 
-  print *, "*** SUCCESS writing example file simple_xy.nc! "
+  print *, "*** SUCCESS writing example file nc4_simple_xy.nc! "
 
 contains
   subroutine check(status)
@@ -94,4 +94,4 @@ contains
       stop 2
     end if
   end subroutine check  
-end program simple_xy_wr
+end program nc4_simple_xy_wr
