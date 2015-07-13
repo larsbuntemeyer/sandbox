@@ -1,3 +1,17 @@
+module ptr_module
+implicit none
+
+real, target  :: data
+
+type data_entry
+ integer :: info
+ real, allocatable, dimension(:,:) :: ptr
+end type data_entry
+
+end module ptr_module
+
+
+
 program main
 !
    implicit none

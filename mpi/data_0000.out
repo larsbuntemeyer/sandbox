@@ -11,10 +11,8 @@
            9   9.00000000000000     
           10   10.0000000000000     
  time for MPI_ALLGATHER:  0.000000000000000E+000
- time for grid loop:   3.82441900000000     
+ time for grid loop:   3.10252900000000     
  time for check:  0.000000000000000E+000
- total time using MPI_ALLGATHER (blocking):   3.82441900000000     
- total time using MPI_ALLGATHER (blocking) (wtime):   3.82581186294556     
+ total time using MPI_ALLGATHER (blocking):   3.10252900000000     
+ total time using MPI_ALLGATHER (blocking) (wtime):   3.10201001167297     
  ---------------------------------------------------------------
- ---------------------------------------------------------------
- total runtime:   4.01938800000000     

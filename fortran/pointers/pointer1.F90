@@ -14,7 +14,7 @@ program bsp
   write(*,*) associated(ptr2)
   ! Ausgabe: T
  
-!  write(*,*) associated(ptr2, ptr1)
+  write(*,*) associated(ptr2, str)
   ! Ausgabe: F
  
   write(*,*) associated(ptr2, str)
